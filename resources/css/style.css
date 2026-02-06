@@ -1,0 +1,35 @@
+/* Reset y configuración general */
+
+*{
+	 margin: 0;
+	padding: 0;
+	box-sizzing: border-box;
+}
+
+body {
+	background-color: black;
+	text-align: center;
+	font-family: verdana, sans-serif;
+}
+
+/* Encabezado principal */
+
+h1 {
+	font-wight: normal;
+	font-size: 50px;
+	color: white;
+	margin-top: 50px;
+}
+
+/* Enlaces */
+
+a {
+	color: aquamarine;
+	font-size: 16 px;
+}
+
+/* Párrafos */
+
+p {
+	margin : 20 px 0;
+}
