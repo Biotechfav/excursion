@@ -1,35 +1,65 @@
 /* Reset y configuración general */
-
-*{
-	 margin: 0;
-	padding: 0;
-	box-sizzing: border-box;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 body {
-	background-color: black;
-	text-align: center;
-	font-family: verdana, sans-serif;
+    background-color: black;
+    text-align: center;
+    font-family: Verdana, sans-serif;
 }
 
 /* Encabezado principal */
-
 h1 {
-	font-wight: normal;
-	font-size: 50px;
-	color: white;
-	margin-top: 50px;
+    font-weight: normal;
+    font-size: 50px;
+    color: white;
+    margin: 50px 0 20px 0;
+}
+
+/* Subtítulos */
+h2 {
+    font-weight: 300;
+    font-size: 42px;
+    color: white;
+    margin: 30px 0;
 }
 
 /* Enlaces */
-
 a {
-	color: aquamarine;
-	font-size: 16 px;
+    color: aquamarine;
+    font-size: 16px;
+    text-decoration: underline;
 }
 
 /* Párrafos */
-
 p {
-	margin : 20 px 0;
+    margin: 20px 0;
+}
+
+/* Texto descriptivo */
+.description {
+    font-size: 21px;
+    color: gray;
+}
+
+/* Video */
+video {
+    width: 100%;
+    max-width: 600px;
+}
+
+/* Imágenes */
+img {
+    width: 100%;
+    max-width: 600px;
+}
+
+/* Footer */
+footer {
+    text-align: right;
+    color: gray;
+    margin: 50px 20px 20px 0;
 }
